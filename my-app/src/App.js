@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload and more.
         </p>
+        <p>2022-03-16 12:14PM HKT</p>
         <a
           className="App-link"
           href="https://reactjs.org"
