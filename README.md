@@ -23,7 +23,7 @@ sudo npm install -g n
 sudo n stable
 sudo n latest
 node --version
-# v17.7.1
+v17.7.1
 
 yarn
 ====
@@ -33,7 +33,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update
 sudo apt-get install yarn
 yarn --version
-# 1.22.17
+1.22.17
 
 react
 =====
@@ -45,12 +45,12 @@ gh-pages
 ========
 npm install gh-pages --save-dev
 nano package.json
-# under version, add
-# "homepage": "https://sugoibook.github.io/react-deploy",
+under version, add
+"homepage": "https://sugoibook.github.io/react-deploy",
 nano package.json
-# "scripts", before "start", add
-# "predeploy": "npm run build",
-# "deploy": "gh-pages -d build",
+"scripts", before "start", add
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
 
 deploy
 ======
