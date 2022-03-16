@@ -21,6 +21,18 @@ sudo n latest
 node --version
 # v17.7.1
 
+yarn
+====
+sudo apt-get install curl
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update
+sudo apt-get install yarn
+yarn --version
+# 1.22.17
+
 react
 =====
 npx create-react-app my-app
+cd my-app
+yarn start
