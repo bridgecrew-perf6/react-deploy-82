@@ -36,3 +36,8 @@ react
 npx create-react-app my-app
 cd my-app
 yarn start
+
+githup pages
+============
+yarn add gh-pages
+
