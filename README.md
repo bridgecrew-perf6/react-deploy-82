@@ -1,3 +1,7 @@
+ref
+===
+https://github.com/gitname/react-gh-pages
+
 key
 ===
 ssh-keygen -o -t rsa -C "sugoibook@gmail.com"
@@ -37,7 +41,19 @@ npx create-react-app my-app
 cd my-app
 yarn start
 
-githup pages
-============
-yarn add gh-pages
+gh-pages
+========
+npm install gh-pages --save-dev
+nano package.json
+# under version, add
+# "homepage": "https://sugoibook.github.io/react-deploy",
+nano package.json
+# "scripts", before "start", add
+# "predeploy": "npm run build",
+# "deploy": "gh-pages -d build",
 
+deploy
+======
+cd my-app
+npm run deploy
+firefox https://sugoibook.github.io/react-deploy/
