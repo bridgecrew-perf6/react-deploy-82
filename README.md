@@ -56,4 +56,4 @@ deploy
 ======
 cd my-app  
 npm run deploy  
-firefox https://sugoibook.github.io/react-deploy/  
+firefox https://sugoibook.github.io/react-deploy/index.html  
