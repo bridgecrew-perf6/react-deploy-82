@@ -11,4 +11,16 @@ git config --global user.name "you"
 git config --global user.email "you@example.com"
 git config -l
 
+node
+====
+sudo apt-get update
+sudo apt-get install npm
+sudo npm install -g n
+sudo n stable
+sudo n latest
+node --version
+# v17.7.1
 
+react
+=====
+npx create-react-app my-app
